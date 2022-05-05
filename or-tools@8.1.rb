@@ -4,8 +4,6 @@ class OrToolsAT81 < Formula
   url "https://github.com/google/or-tools/releases/download/v8.1/or-tools_MacOsX-10.15.7_v8.1.8487.tar.gz"
   sha256 "cdf5d5c4dd10ddfa39eb951e6b8122b2a48c7d1dbd87bb5f792a7596aea8b8bb"
 
-  bottle :unneeded
-
   def install
     include.install Dir["include/*"]
     lib.install Dir["lib/*"]
